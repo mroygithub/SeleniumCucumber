@@ -18,7 +18,7 @@ public class StepDeftest1 {
 
 
         // Launching Google Application
-        System.setProperty("webdriver.chrome.driver","/Users/mithunroy/Downloads/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/directory/Downloads/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(string);
